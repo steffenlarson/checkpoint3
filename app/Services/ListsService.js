@@ -3,9 +3,12 @@
 class ListService {
 
   constructor() {
-    console.log("creating list")
+    console.log("creating listService")
+  }
+  createList() {
+    console.log("creating list from service")
   }
 }
 
-const list = new ListService();
-export default list;
+const service = new ListService();
+export default service;
